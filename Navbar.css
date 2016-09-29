@@ -1,16 +1,16 @@
 #navbar { 
-    text-allign:center;
+    text-align:center;
 }
     
 #navbar li {
     display:inline-block;
     border: 3px solid black;
     padding: 10px;
-    background-color: black;
+    background-color: aqua;
 }
 
 #navbar a {
-    color: white;
+    color: red;
 
 }
  
