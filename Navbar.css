@@ -1,20 +1,21 @@
 #navbar { 
     text-align:center;
+     background-color: black
 }
     
 #navbar li {
     display:inline-block;
     border: 3px solid black;
     padding: 10px;
-    background-color: aqua;
+    background-color: black;
 }
 
 #navbar a {
-    color: red;
+    color: white;
 
 }
  
 p {
-    width: 30% 
+    width: 100% 
 }
 
