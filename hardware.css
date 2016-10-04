@@ -1,0 +1,41 @@
+#title {
+    -webkit-animation: spinning 1s linear infinite;
+    transform:rotateX(0deg);
+    
+}
+
+@-webkit-keyframes spinning {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    70%  {color: aqua;}
+    50%  {color: lime;}
+   40% {color: purple;}
+  100% {color: red;}
+    
+}
+
+#navbar { 
+    text-align:center;
+     background-color: black
+}
+    
+#navbar li {
+    display:inline-block;
+    border: 3px;
+    padding: 13px;
+    background-color: clear;
+}
+
+#navbar a {
+    color: lime;
+
+}
+ 
+p {
+    width: 100% 
+}
+
+p {
+    text-align: left;
+}
