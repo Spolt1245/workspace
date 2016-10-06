@@ -1,0 +1,15 @@
+#title {
+    -webkit-animation: spinning 3s linear infinite;
+    transform:rotateX(0deg);
+    background-color:red;
+
+}@keyframes spinning {
+    25%   {background-color: red;}
+    25%  {background-color: yellow;}
+    25%  {background-color: blue;}
+    25% {background-color: aqua;}
+    25% {background-color: lime;}
+    30% {background-color: pink;}
+    100%  {background-color: red;}
+}
+
