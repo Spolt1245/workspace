@@ -9,7 +9,30 @@
     25%  {background-color: blue;}
     25% {background-color: aqua;}
     25% {background-color: lime;}
-    30% {background-color: pink;}
-    100%  {background-color: red;}
+    25% {background-color: pink;}
+    25% {background-color: orange;}
+   25% {background-color: green;}
+   2%  {background-color: red;}
 }
 
+td {
+    border:5px solid lime;
+    border-collapse: collapse;
+}
+
+#title {
+    -webkit-animation: spinning 1s linear infinite;
+    transform:rotateX(0deg);
+    
+}
+
+@-webkit-keyframes spinning {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    70%  {color: aqua;}
+    50%  {color: lime;}
+   40% {color: purple;}
+  100% {color: red;}
+    
+}
