@@ -1,21 +1,21 @@
 #navbar { 
     text-align:center;
-     background-color: aqua
+     background-color
 }
     
 #navbar li {
     display:inline-block;
-    border: 3px solid black;
+    border: solid white;
     padding: 10px;
-    background-color: blue;
+    background-color: white;
 }
 
 #navbar a {
-    color: white;
+    color: Teal ;
 
 }
  
-p {
-    width: 100% 
-}
+/*p {*/
+/*    width: 100% */
+/*}*/
 

@@ -17,14 +17,13 @@
 
 #navbar { 
     text-align:center;
-     background-color: black
+     background-color: black;
 }
     
 #navbar li {
     display:inline-block;
     border: 3px;
     padding: 13px;
-    background-color: clear;
 }
 
 #navbar a {
