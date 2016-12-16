@@ -1,21 +1,19 @@
-disp {
-    margin-right:200px;   
-}
-
-
+body { 
+    background-color: white; 
+} 
 
 body:before, body:after {
     content: "";
     position: fixed;
-    background: #2E8B57;
+    background: #20B2AA;
     left:0;
     right: 0;
-    height: 15px;
+    height: 10px;
 }
 body:before {
     top: 0;
 }
 body:after {
-    bottom: 0;
+    bottom: 5;
 }
  

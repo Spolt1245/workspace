@@ -12,6 +12,9 @@
 </head>
 <body>
 
+
+
+
     <ul id="navbar"> 
     <li><a href="aboutme.html"> Me </a></li>
     <li><a href="favorites.html"> Favorites </a></li>
@@ -20,22 +23,46 @@
     <li><a href="howtohardware.html">How To Hardware </a></li>
     <li> <a href="calculator.html"> Calculator </a> </li>
     <li> <a href="todo.html"> To do List </a> </li>
+    <li> <a href="howtopage2"> How to Page 2</a></li>
     </ul>
    
    
-    <font face="arial" color="navy"> <h1> To Do List </font>   </h1> </font> 
+    <font face="arial" color="navy"> <h1> <U> <i>   To Do List </i>  </U></font> </h1> </font> <br> <font face="arial" color="black"> <p>  Hey there! welcome to the To Do list, <br> to begin type in a task, or whatever you want in the box below.<br> Press add, to add a task below. To delete the the task click on it, and it will go away  </p>
     <body style="background-repeat: no-repeat; background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-photography-backgrounds-hd.jpg');
                                     background-size:1500px;">
 
     <meta charset="UTF-8">
-    <title>Document</title>
-
-
- 
- <input id="inp">
-  <button id="btn"> Button </button>
-  <div id="disp"></div>    
+    
+ <input id="inp"> 
+<button id="btn"> Add </button>  <form id="myForm"> </form> <input type="button" onclick="myFunction()" value="Clear">  
+<select id="textclr">
+ <option value="none"> none  </option>
+ <option valu="red"> red </option>
+  <option value="blue"> blue </option>
+<option value="green"> green </option>
+ <option value="aqua"> aqua </option>
+<option value="white"> white </option>
+</select> 
+    <div id="disp"></div>    
 
 <script src="todo.js"> </script>
+<script>
+function myFunction() {
+    document.getElementById("myForm").reset();
+}
+</script>
+
+
+
+<form id="myForm">
+  
+</form>
+
+
+
+
+
+
+
 </body>
 </html>

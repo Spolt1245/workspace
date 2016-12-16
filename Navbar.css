@@ -1,11 +1,10 @@
 #navbar { 
     text-align:center;
-     background-color
 }
     
 #navbar li {
     display:inline-block;
-    border: solid white;
+    border: solid Slategray; 
     padding: 10px;
     background-color: white;
 }
