@@ -12,7 +12,7 @@ solve.addEventListener("click",function(){
  
     
 
-//The num1 and num2 are the imput values that allow you to do basic math problems
+//The num1 and num2 are the imput values that allow you to do basic math problems.
 var num1 = num1input.value;
 var num2 = num2input.value;   
 //These if else statements mean that if the dropdown bar is equal to a sign like +,-,/ etc.  

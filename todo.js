@@ -3,14 +3,19 @@ var inp = document.getElementById("inp");
 var disp = document.getElementById("disp");
 var btn = document.getElementById("btn");
 var textclr = document.getElementById("textclr");
+var clearbtn = document.getElementById("clearbtn");
 
-function myFunction() {
-    document.getElementById("myForm").reset(disp);
-}
-// This is an addEventListener which waits for a certain function to carry out the task. In this situation Click is a function that makes it so that when you press a button it will carry out the task 
+clearbtn.addEventListener("click", function(){
+    
+      
+    disp.innerHTML = '';
+    
+})
+
+// This is an addEventListener which wa8its for a certain function to carry out the task. In this situation Click is a function that makes it so that when you press a button it will carry out the task 
 btn.addEventListener("click", function() {
 
-//  disp.innerHTML += "<div>" + inp.value + "</div>"
+//disp.innerHTML += "<div>" + inp.value + "</div>"
 
     // These are if else statements, if one thing is one way, then if it is else , than its equal to something else.  Each else if statment
     // Each else if statment is changing the text color of the task, and inputting it into the page. It allows for changing certain aspects that are important  
