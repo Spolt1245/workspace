@@ -17,4 +17,10 @@ body:after {
     bottom: 0;
 }
  
- 
+ td {
+    border:5px solid #20B2AA;
+    border-collapse: collapse;
+}
+h1 { 
+    text-align: center;
+    
