@@ -1,0 +1,25 @@
+body {
+	padding: 150px;
+	height: 340px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+	  inset #FF0000 0 0 0 5px,
+		inset #FFA500 0 0 0 8px,
+		inset #008000 0 0 0 10px,
+		inset #0000FF 0 0 0 14px,
+		inset #4B0082 0 0 0 19px,
+		inset #EE82EE 0 0 0 23px;
+	-moz-box-shadow:
+	    inset #FF0000 0 0 0 5px,
+		inset #FFA500 0 0 0 8px,
+		inset #008000 0 0 0 10px,
+		inset #0000FF 0 0 0 14px,
+		inset #4B0082 0 0 0 19px,
+		inset #EE82EE 0 0 0 23px;
+	box-shadow:
+        inset #FF0000 0 0 0 5px,
+		inset #FFA500 0 0 0 8px,
+		inset #008000 0 0 0 10px,
+		inset #0000FF 0 0 0 14px,
+		inset #4B0082 0 0 0 19px,
+		inset #EE82EE 0 0 0 23px;

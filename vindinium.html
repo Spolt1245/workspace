@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="Navbar.css" type="text/css" /> 
+<link rel="stylesheet" href="vindinium.css" type="text/css" /> 
+    <ul id="navbar"> 
+    <li><a href="aboutme.html"> Me </a></li>
+    <li><a href="favorites.html"> Favorites </a></li>
+    <li><a href="hobbies.html">Hobbies </a></li>
+    <li><a href="Hardware.html">Hardware </a></li>
+    <li><a href="howtohardware.html">How To Hardware </a></li>
+    <li> <a href="calculator.html"> Calculator </a> </li>
+    <li> <a href="todo.html"> To do List </a></li>
+    <li> <a href="howtopage2.html"> How to Page 2</a></li>
+    <li> <a href="vindinium.html"> Vindinium AI</a>                                </li>
+    </ul>
+  <title> Vindinium AI    </title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head> 
+
+
+<body> 
+
+
+
+
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c0b283;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="vindinium.html">Home</a>
+  <a href="taverns.html">Taverns</a>
+  <a href="mines.html">Mines</a>
+  <a href="attacking.html">Attacking </a>
+<a href="learned.html"> What I learned</a>
+</div>
+
+<div id="main">
+  
+  <h2> </h2>
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">  &#9776; Menu
+  <br> <font size=1px> <center> <h1>   <p id="rcorners2"> What is Vindinium? <br> <img src="http://img.linuxfr.org/img/687474703a2f2f73642d33333239342e64656469626f782e66722f7e6a6f656c2f76696e64696e69756d2e706e67/vindinium.png" style="width:340px;height:240px;"> Vindinium is a fun, and exciting web based game that is controlled by various commands written in Javascript. The game is played with a total of 4 bots, which are known as “heros.” Each hero is controlled by a person who has programmed, and commanded their bot to do specific, and unique actions in the game. These bots compete on randomly generated maps. The goal of the game is to gain, and steal as many gold mines as possible with the purpose to get the most gold. Each bot has an infinite amount of lives, and 100 health. There are 1200 turns in the entirety of the game, which is 300 turns per player. The bots can choose to attack the other 3 bots, and as a result they can lose health. But they need to be healed, so they go to what are known as taverns, in order to be healed. On top of attacking bots, each bot loses 1 health every turn. If you lose all your health you will die, and then respawn again in the same spot you started at the beginning of the game. In order to win the game you need to gain the most gold mines on the map, to get more coins than all other bots. After the 1200 turns are up, whoever has the most coins is the winner. <img src="images/firstpagecode.png"> <img src= "images/page2code.png"> <img src="images/3page.png">   </b></p> </h1></center>  </span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+ 
+ 
+ 
+
+
+</body>
+</html> 

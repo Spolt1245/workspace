@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+<link rel="stylesheet" href="Navbar.css" type="text/css" /> 
+<link rel="stylesheet" href="vindinium.css" type="text/css" /> 
+    <ul id="navbar"> 
+    <li><a href="aboutme.html"> Me </a></li>
+    <li><a href="favorites.html"> Favorites </a></li>
+    <li><a href="hobbies.html">Hobbies </a></li>
+    <li><a href="Hardware.html">Hardware </a></li>
+    <li><a href="howtohardware.html">How To Hardware </a></li>
+    <li> <a href="calculator.html"> Calculator </a> </li>
+    <li> <a href="todo.html"> To do List </a></li>
+    <li> <a href="howtopage2.html"> How to Page 2</a></li>
+    <li> <a href="vindinium.html"> Vindinium AI</a>                                </li>
+    </ul>
+  <title> Vindinium AI    </title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head> 
+
+
+<body> 
+
+
+
+
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c0b283;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="vindinium.html">Home</a>
+  <a href="taverns.html">Taverns</a>
+  <a href="mines.html">Mines</a>
+  <a href="attacking.html">Attacking </a>
+  <a href="learned.html"> What I learned</a>
+</div>
+
+<div id="main">
+  
+  <h2> </h2>
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu
+   <center> <h1>   <p id="rcorners2"> <font size="5px"> What I learned <br>    I learned that when creating a virtual bot in javascript, it doesn’t always go the way you expect. It's not as easy, and forgiving like: html, and css.   I figured out that making the bot function correctly takes a lot of critical thinking, and time to identify what is actually behind the code, and the creation of the bot.  Being able to create a bot was very complicated because understanding the purpose of everything is difficult, and being able to make sure things are in the right place takes effort. In my opinion it was complicated until I fully grasped the idea of a bot, and understood it more. So creating a bot is fun, and worth the work. My opinion on AI has changed a great deal from when I first began to write it.  At first I didn’t really know what AI was.  I’ve played video games most of life, and I never really thought about how the game was created, and what was really behind the console, or computer. Now that I have written a bot of my own, I’ve really been able to understand the basics of how videogames are created, and really see that a lot of work is put into creating a working game that I play. I have started looking at video games a little bit differently than before. I now think about how much work is put into making games, and the amazing people who create video games. 
+ 
+</font> </b></p> </h1></center>  </span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+ 
+    </body>
+</html>

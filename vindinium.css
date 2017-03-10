@@ -1,0 +1,16 @@
+ 
+#rcorners2 {
+    border-radius: 25px;
+    border: 5.25px solid black;
+    padding: 20px; 
+    width: 1000px;
+    height: 1,000px; 
+    content: 10px;
+    color: gold;
+    
+}
+
+body {
+    background-color:#f4f4f4 ;
+}
+
