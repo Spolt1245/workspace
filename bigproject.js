@@ -20,7 +20,7 @@ var tellezbtn = document.getElementById('tellezbtn');
 var alfarobtn = document.getElementById('alfarobtn');
 var hoybtn = document.getElementById('hoybtn');
 var feeneybtn = document.getElementById('feeneybtn');
-var howelbtn = document.getElementById('howelbtn');
+var howelbtn = document.getElementById('howelbtn');theamble ishte to the l l o determine hte to the l 
 var hesbybtn = document.getElementById('hesbybtn');
 var macbtn = document.getElementById('macbtn');
 
@@ -36,7 +36,6 @@ for (var i = 0; i < buttons.length; i++) {
       else {
          parrelbtn.style.display = "none";
       }
-      if (kellybtn.style.display === "none" && evt.target.innerHTML === "Mr. Kelly") {
          kellybtn.style.display = "block";
       }
       
@@ -52,7 +51,6 @@ for (var i = 0; i < buttons.length; i++) {
       }
 
       if (lolabtn.style.display === "none" && evt.target.innerHTML === "Mr. Lola") {
-         lolabtn.style.display = "block";
       }
       else {
          lolabtn.style.display = "none";
@@ -61,7 +59,6 @@ for (var i = 0; i < buttons.length; i++) {
       if (thompsonbtn.style.display === "none" && evt.target.innerHTML === "Ms. Thompson") {
          thompsonbtn.style.display = "block";
       }
-      else {
          thompsonbtn.style.display = "none";
       }
 
@@ -70,7 +67,6 @@ for (var i = 0; i < buttons.length; i++) {
       }
       else {
          ballardbtn.style.display = "none";
-      }
 
       if (bonnezbtn.style.display === "none" && evt.target.innerHTML === "Ms. Bonnez") {
          bonnezbtn.style.display = "block";
@@ -79,7 +75,6 @@ for (var i = 0; i < buttons.length; i++) {
          bonnezbtn.style.display = "none";
       }
 
-      if (edwardsbtn.style.display === "none" && evt.target.innerHTML === "Mr. Edwards") {
          edwardsbtn.style.display = "block";
       }
       else {
@@ -88,7 +83,6 @@ for (var i = 0; i < buttons.length; i++) {
 
     
 
-      if (hsiaobtn.style.display === "none" && evt.target.innerHTML === "Mrs. Hsiao") {
          hsiaobtn.style.display = "block";
       }
       else {
@@ -99,7 +93,6 @@ for (var i = 0; i < buttons.length; i++) {
          tellezbtn.style.display = "block";
       }
       else {
-         tellezbtn.style.display = "none";
       }
 
 
@@ -108,7 +101,6 @@ for (var i = 0; i < buttons.length; i++) {
       if (alfarobtn.style.display === "none" && evt.target.innerHTML === "Mr. Alfaro") {
          alfarobtn.style.display = "block";
       }
-      else {
          alfarobtn.style.display = "none";
       }
 
@@ -118,7 +110,6 @@ for (var i = 0; i < buttons.length; i++) {
       else {
          hoybtn.style.display = "none";
       }
-
       if (feeneybtn.style.display === "none" && evt.target.innerHTML === "Mr. Feeney") {
          feeneybtn.style.display = "block";
       }
@@ -129,7 +120,7 @@ for (var i = 0; i < buttons.length; i++) {
    
 
       if (howelbtn.style.display === "none" && evt.target.innerHTML === "Mr. Howel") {
-         howelbtn.style.display = "block";
+
       }
       else {
          howelbtn.style.display = "none";
@@ -137,20 +128,30 @@ for (var i = 0; i < buttons.length; i++) {
 
       if (hesbybtn.style.display === "none" && evt.target.innerHTML === "Mr. Hesby") {
          hesbybtn.style.display = "block";
-      }
+
       else {
          hesbybtn.style.display = "none";
       }
       
       if (macbtn.style.display === "none" && evt.target.innerHTML === "Mrs. Mac") {
          macbtn.style.display = "block";
-       } 
        
-       else { 
+
+   } 
+
+       ese { 
           macbtn.style.display = "none";
           
        }
    });
 
 
-}
+
+
+
+
+
+
+
+
+undefiundefined
