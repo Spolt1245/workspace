@@ -20,7 +20,7 @@ var tellezbtn = document.getElementById('tellezbtn');
 var alfarobtn = document.getElementById('alfarobtn');
 var hoybtn = document.getElementById('hoybtn');
 var feeneybtn = document.getElementById('feeneybtn');
-var howelbtn = document.getElementById('howelbtn');theamble ishte to the l l o determine hte to the l 
+var howelbtn = document.getElementById('howelbtn');
 var hesbybtn = document.getElementById('hesbybtn');
 var macbtn = document.getElementById('macbtn');
 
@@ -139,7 +139,7 @@ for (var i = 0; i < buttons.length; i++) {
 
    } 
 
-       ese { 
+       else { 
           macbtn.style.display = "none";
           
        }
